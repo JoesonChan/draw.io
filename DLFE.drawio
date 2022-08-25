@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T12:50:45.747Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="jGconMth0qJnUdSvDmTh" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-25T11:45:07.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="kkXojU9Q0FsmBTA76BB9" version="20.2.6" type="github">
   <diagram id="jDf5m3AYdCFQ41c70_qY" name="第 1 页">
     <mxGraphModel dx="2370" dy="1177" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -239,6 +239,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="YfHTAPaN2DRpzsCkXwUB-333" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=36;fontColor=#000000;" edge="1" parent="1" source="YfHTAPaN2DRpzsCkXwUB-83" target="YfHTAPaN2DRpzsCkXwUB-334">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="3870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1285" y="3890" />
+              <mxPoint x="1815" y="3890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YfHTAPaN2DRpzsCkXwUB-83" value="&lt;font color=&quot;#ff0000&quot;&gt;(24, 256, 152, 256)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;fontColor=#0000FF;" vertex="1" parent="1">
           <mxGeometry x="1120" y="970" width="330" height="60" as="geometry" />
         </mxCell>
@@ -332,6 +341,9 @@
         </mxCell>
         <mxCell id="YfHTAPaN2DRpzsCkXwUB-140" value="anchors" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;fontColor=#0000FF;" vertex="1" parent="1">
           <mxGeometry x="2520" y="1170" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YfHTAPaN2DRpzsCkXwUB-335" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=36;fontColor=#000000;" edge="1" parent="1" source="YfHTAPaN2DRpzsCkXwUB-141" target="YfHTAPaN2DRpzsCkXwUB-193">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YfHTAPaN2DRpzsCkXwUB-141" value="&lt;font color=&quot;#000000&quot;&gt;[24, 5, ***]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;fontColor=#0000FF;" vertex="1" parent="1">
           <mxGeometry x="2410" y="1240" width="190" height="60" as="geometry" />
@@ -692,11 +704,22 @@
         <mxCell id="YfHTAPaN2DRpzsCkXwUB-319" value="维度变换：[图片数, 某图片所有尺度锚框数, 4]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;fontColor=#0000FF;" vertex="1" parent="1">
           <mxGeometry x="2250" y="3570" width="750" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="YfHTAPaN2DRpzsCkXwUB-336" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=36;fontColor=#000000;" edge="1" parent="1" source="YfHTAPaN2DRpzsCkXwUB-320" target="YfHTAPaN2DRpzsCkXwUB-334">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2240" y="3890" />
+              <mxPoint x="1815" y="3890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YfHTAPaN2DRpzsCkXwUB-320" value="&lt;font color=&quot;#000000&quot;&gt;[24, ?, 4]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;fontColor=#0000FF;" vertex="1" parent="1">
           <mxGeometry x="2160" y="3770" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YfHTAPaN2DRpzsCkXwUB-322" value="topk，? 根据图片而定，最大1000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;fontColor=#0000FF;" vertex="1" parent="1">
           <mxGeometry x="1520" y="3650" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YfHTAPaN2DRpzsCkXwUB-334" value="&lt;font color=&quot;#000000&quot;&gt;detections&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="3960" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
