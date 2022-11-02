@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T14:25:08.917Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="UXJzXJ8e1fhtQlKYLgVf" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T06:44:38.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="p1UHq5IK_EPcIhTDPhxh" version="20.5.1" type="github">
   <diagram id="s02rM8P8Yl8ocE0zyt6N" name="第 1 页">
-    <mxGraphModel dx="1385" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -95,7 +95,7 @@
           <mxGeometry x="870" y="1555" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="niY098WjcceA0zdsTRvM-61" value="折扣因子（discount factor）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="1680" width="170" height="60" as="geometry" />
+          <mxGeometry x="827.5" y="1610" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="niY098WjcceA0zdsTRvM-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="niY098WjcceA0zdsTRvM-64" target="niY098WjcceA0zdsTRvM-65">
           <mxGeometry relative="1" as="geometry" />
@@ -103,19 +103,17 @@
         <mxCell id="niY098WjcceA0zdsTRvM-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="niY098WjcceA0zdsTRvM-64" target="niY098WjcceA0zdsTRvM-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="niY098WjcceA0zdsTRvM-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="niY098WjcceA0zdsTRvM-64" target="niY098WjcceA0zdsTRvM-61">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1280" y="1630" />
-              <mxPoint x="1020" y="1630" />
-              <mxPoint x="1020" y="1710" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="niY098WjcceA0zdsTRvM-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="niY098WjcceA0zdsTRvM-64" target="niY098WjcceA0zdsTRvM-162">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1280" y="1820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niY098WjcceA0zdsTRvM-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="niY098WjcceA0zdsTRvM-64" target="niY098WjcceA0zdsTRvM-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" y="1625" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -380,6 +378,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="niY098WjcceA0zdsTRvM-201" value="迭代" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#000000;fillColor=none;" connectable="0" vertex="1" parent="niY098WjcceA0zdsTRvM-200">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niY098WjcceA0zdsTRvM-203" value="策略评估&lt;br&gt;或&lt;br&gt;价值预测" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="niY098WjcceA0zdsTRvM-204" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="niY098WjcceA0zdsTRvM-65" target="niY098WjcceA0zdsTRvM-203">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="1730" as="sourcePoint" />
+            <mxPoint x="940" y="1730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niY098WjcceA0zdsTRvM-205" value="计算过程称为" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#000000;fillColor=none;" connectable="0" vertex="1" parent="niY098WjcceA0zdsTRvM-204">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
