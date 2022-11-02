@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T06:44:38.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="p1UHq5IK_EPcIhTDPhxh" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T09:33:57.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="zIWnfjtOo6VOf0wbQK1X" version="20.5.1" type="github">
   <diagram id="s02rM8P8Yl8ocE0zyt6N" name="第 1 页">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -86,13 +86,13 @@
           <mxGeometry x="1010" y="1450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="niY098WjcceA0zdsTRvM-49" value="随机性策略" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="1540" width="120" height="60" as="geometry" />
+          <mxGeometry x="1010" y="1520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="niY098WjcceA0zdsTRvM-54" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.smiley" vertex="1" parent="1">
-          <mxGeometry x="940" y="1550" width="40" height="40" as="geometry" />
+          <mxGeometry x="940" y="1530" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="niY098WjcceA0zdsTRvM-56" value="一般使用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="870" y="1555" width="70" height="30" as="geometry" />
+          <mxGeometry x="870" y="1535" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="niY098WjcceA0zdsTRvM-61" value="折扣因子（discount factor）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="827.5" y="1610" width="170" height="60" as="geometry" />
@@ -121,7 +121,7 @@
           <mxGeometry x="1220" y="1650" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="niY098WjcceA0zdsTRvM-65" value="状态价值函数 V(s)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1640" width="120" height="60" as="geometry" />
+          <mxGeometry x="1050" y="1650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="niY098WjcceA0zdsTRvM-66" value="动作价值函数 Q(s, a)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="1730" width="120" height="60" as="geometry" />
@@ -381,7 +381,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="niY098WjcceA0zdsTRvM-203" value="策略评估&lt;br&gt;或&lt;br&gt;价值预测" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="620" y="1690" width="120" height="60" as="geometry" />
+          <mxGeometry x="615" y="1660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="niY098WjcceA0zdsTRvM-204" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="niY098WjcceA0zdsTRvM-65" target="niY098WjcceA0zdsTRvM-203">
           <mxGeometry relative="1" as="geometry">
